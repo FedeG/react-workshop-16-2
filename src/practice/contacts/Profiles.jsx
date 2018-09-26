@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Grid, Row, Col } from 'react-bootstrap';
 
 import Profile from './Profile';
+import withLoading from './loading.hoc';
 
 const Profiles = ({ users }) => {
   const profiles = users.map(
@@ -47,4 +48,4 @@ Profiles.propTypes = {
   ).isRequired,
 };
 
-export default Profiles;
+export default withLoading(Profiles, 'users');

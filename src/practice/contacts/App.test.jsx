@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import App from './index';
+import App from './App';
 
 describe('App', () => {
   beforeEach(() => {
@@ -14,8 +14,7 @@ describe('App', () => {
     const component = renderer.create(
       <App />,
     );
-    // const instance = component.getInstance();
-    let tree = component.toJSON();
+    const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
     expect(fetch).toHaveBeenCalledTimes(1);
   });

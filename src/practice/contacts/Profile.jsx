@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Image, Panel, Well } from 'react-bootstrap';
 
+import withLoading from './loading.hoc';
+
 const Profile = ({
   name, avatarUrl,
   username, date,
@@ -32,4 +34,4 @@ Profile.propTypes = {
   date: PropTypes.instanceOf(Date).isRequired,
 };
 
-export default Profile;
+export default withLoading(Profile, 'name');
