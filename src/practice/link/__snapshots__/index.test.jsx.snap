@@ -35,15 +35,3 @@ exports[`Link changes the class when hovered 3`] = `
   Facebook
 </a>
 `;
-
-exports[`Link changes the class when hovered 4`] = `
-<a
-  className="normal"
-  href="http://www.mercadolibre.com"
-  onMouseEnter={[Function]}
-  onMouseLeave={[Function]}
-  role="button"
->
-  Facebook
-</a>
-`;

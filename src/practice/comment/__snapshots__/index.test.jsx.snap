@@ -1,0 +1,340 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comment initial state 1`] = `
+<div
+  className="Comment"
+>
+  <div
+    className="UserInfo"
+  >
+    <div
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <img
+        alt="Test"
+        className="Avatar"
+        src="avatarTestUrl"
+      />
+    </div>
+    <div
+      className="UserInfo-name"
+    >
+      Test
+    </div>
+  </div>
+  <div
+    className="Comment-text"
+  >
+    <div>
+      <h1>
+        Comentarios:
+      </h1>
+      <div
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        <img
+          alt="Test"
+          className="Avatar"
+          src="avatarTestUrl"
+        />
+      </div>
+      <h4>
+        buenos dias
+      </h4>
+      <h4>
+        buenas tarde
+      </h4>
+      <h4>
+        buenas noches
+      </h4>
+    </div>
+  </div>
+  <div
+    className="Comment-date"
+  >
+    Sun Mar 05 1995
+  </div>
+</div>
+`;
+
+exports[`Comment when click, date should change 1`] = `
+<div
+  className="Comment"
+>
+  <div
+    className="UserInfo"
+  >
+    <div
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <img
+        alt="Test"
+        className="Avatar"
+        src="avatarTestUrl"
+      />
+    </div>
+    <div
+      className="UserInfo-name"
+    >
+      Test
+    </div>
+  </div>
+  <div
+    className="Comment-text"
+  >
+    <div>
+      <h1>
+        Comentarios:
+      </h1>
+      <div
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        <img
+          alt="Test"
+          className="Avatar"
+          src="avatarTestUrl"
+        />
+      </div>
+      <h4>
+        buenos dias
+      </h4>
+      <h4>
+        buenas tarde
+      </h4>
+      <h4>
+        buenas noches
+      </h4>
+    </div>
+  </div>
+  <div
+    className="Comment-date"
+  >
+    Sun Mar 05 1995
+  </div>
+</div>
+`;
+
+exports[`Comment when click, date should change 2`] = `
+<div
+  className="Comment"
+>
+  <div
+    className="UserInfo"
+  >
+    <div
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <img
+        alt="Test"
+        className="Avatar"
+        src="avatarTestUrl"
+      />
+    </div>
+    <div
+      className="UserInfo-name"
+    >
+      Test
+    </div>
+  </div>
+  <div
+    className="Comment-text"
+  >
+    <div>
+      <h1>
+        Comentarios:
+      </h1>
+      <div
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        <img
+          alt="Test"
+          className="Avatar"
+          src="avatarTestUrl"
+        />
+      </div>
+      <h4>
+        buenos dias
+      </h4>
+      <h4>
+        buenas tarde
+      </h4>
+      <h4>
+        buenas noches
+      </h4>
+    </div>
+  </div>
+  <div
+    className="Comment-date"
+  >
+    Sun Mar 05 1995
+  </div>
+  <div>
+    <h1>
+      Hello, world!
+    </h1>
+    <h2>
+      Fecha: Tue Mar 05 1996
+    </h2>
+  </div>
+</div>
+`;
+
+exports[`Comment when click, date should change 3`] = `
+<div
+  className="Comment"
+>
+  <div
+    className="UserInfo"
+  >
+    <div
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <img
+        alt="Test"
+        className="Avatar"
+        src="avatarTestUrl"
+      />
+    </div>
+    <div
+      className="UserInfo-name"
+    >
+      Test
+    </div>
+  </div>
+  <div
+    className="Comment-text"
+  >
+    <div>
+      <h1>
+        Comentarios:
+      </h1>
+      <div
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        <img
+          alt="Test"
+          className="Avatar"
+          src="avatarTestUrl"
+        />
+      </div>
+      <h4>
+        buenos dias
+      </h4>
+      <h4>
+        buenas tarde
+      </h4>
+      <h4>
+        buenas noches
+      </h4>
+    </div>
+  </div>
+  <div
+    className="Comment-date"
+  >
+    Sun Mar 05 1995
+  </div>
+  <div>
+    <h1>
+      Hello, world!
+    </h1>
+    <h2>
+      Fecha: Wed Mar 05 1997
+    </h2>
+  </div>
+</div>
+`;
+
+exports[`Comment when click, showDate should be true 1`] = `
+<div
+  className="Comment"
+>
+  <div
+    className="UserInfo"
+  >
+    <div
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <img
+        alt="Test"
+        className="Avatar"
+        src="avatarTestUrl"
+      />
+    </div>
+    <div
+      className="UserInfo-name"
+    >
+      Test
+    </div>
+  </div>
+  <div
+    className="Comment-text"
+  >
+    <div>
+      <h1>
+        Comentarios:
+      </h1>
+      <div
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        <img
+          alt="Test"
+          className="Avatar"
+          src="avatarTestUrl"
+        />
+      </div>
+      <h4>
+        buenos dias
+      </h4>
+      <h4>
+        buenas tarde
+      </h4>
+      <h4>
+        buenas noches
+      </h4>
+    </div>
+  </div>
+  <div
+    className="Comment-date"
+  >
+    Sun Mar 05 1995
+  </div>
+  <div>
+    <h1>
+      Hello, world!
+    </h1>
+    <h2>
+      Fecha: Sun Mar 05 1995
+    </h2>
+  </div>
+</div>
+`;

@@ -15,7 +15,7 @@ export default class Clock extends React.PureComponent {
     return (
       <div>
         <h1>Hello, world!</h1>
-        <h2>{`Fecha: ${date.toLocaleTimeString()}`}</h2>
+        <h2>{`Fecha: ${date.toDateString()}`}</h2>
       </div>
     );
   }
