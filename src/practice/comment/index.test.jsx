@@ -4,6 +4,13 @@ import renderer from 'react-test-renderer';
 
 import Comment from './Comment';
 
+jest.mock('../clock', () => 'Clock');
+jest.mock('./Avatar', () => 'Avatar');
+jest.mock('./UserInfo', () => 'UserInfo');
+jest.mock('./CommentText', () => 'CommentText');
+jest.mock('./CommentDate', () => 'CommentDate');
+
+
 describe('Comment', () => {
   let component;
 
