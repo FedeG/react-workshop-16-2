@@ -223,8 +223,8 @@ exports[`Comment when click, showDate should be true 1`] = `
   <CommentDate
     date={1995-03-05T03:00:00.000Z}
   />
-  <Clock
-    date={1995-03-05T03:00:00.000Z}
-  />
+  <div>
+    Loading...
+  </div>
 </div>
 `;

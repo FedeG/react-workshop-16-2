@@ -1,11 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Loadable from 'react-loadable';
 
-import Clock from '../clock';
 import Avatar from './Avatar';
 import UserInfo from './UserInfo';
 import CommentText from './CommentText';
 import CommentDate from './CommentDate';
+
+const LoadableClock = Loadable({
+  loader: () => import('../clock'),
+  loading: () => <div>Loading...</div>,
+});
 
 export default class Comment extends React.PureComponent {
   static propTypes = {
@@ -49,7 +54,7 @@ export default class Comment extends React.PureComponent {
           </div>
         </CommentText>
         <CommentDate date={date} />
-        { showDate && <Clock date={clockDate} />}
+        { showDate && <LoadableClock date={clockDate} />}
       </div>
     );
   }

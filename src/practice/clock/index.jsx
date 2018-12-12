@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
 export default class Clock extends React.PureComponent {
@@ -13,10 +13,10 @@ export default class Clock extends React.PureComponent {
   render() {
     const { date } = this.props;
     return (
-      <div>
+      <Fragment>
         <h1>Hello, world!</h1>
         <h2>{`Fecha: ${date.toDateString()}`}</h2>
-      </div>
+      </Fragment>
     );
   }
 }

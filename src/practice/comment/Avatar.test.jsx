@@ -4,7 +4,8 @@ import renderer from 'react-test-renderer';
 import Avatar from './Avatar';
 
 describe('Avatar', () => {
-  let component, onClickHandler;
+  let component;
+  let onClickHandler;
 
   const author = {
     name: 'Test',
