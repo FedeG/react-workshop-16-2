@@ -1,7 +1,10 @@
 import React from 'react';
+import MockDate from 'mockdate';
 import renderer from 'react-test-renderer';
 
 import Comment from './Comment';
+
+MockDate.set('3/5/1995');
 
 describe('Comment', () => {
   test('initial state', () => {
