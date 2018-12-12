@@ -10,7 +10,6 @@ jest.mock('./UserInfo', () => 'UserInfo');
 jest.mock('./CommentText', () => 'CommentText');
 jest.mock('./CommentDate', () => 'CommentDate');
 
-
 describe('Comment', () => {
   let component;
 
