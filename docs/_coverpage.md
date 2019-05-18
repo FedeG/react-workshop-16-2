@@ -8,7 +8,7 @@
 - Entender las herramientas requeridas para trabajar con React
 - Entender todos los conceptos requeridos para trabajar con React 16.2
 
-[GitHub](https://github.com/FedeG/react-workshop)
+[GitHub](https://github.com/FedeG/react-workshop-16-2)
 [Comenzar](react/README.md)
 
 <!-- background image -->
